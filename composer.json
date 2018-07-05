@@ -1,0 +1,48 @@
+{
+  "name": "AndrewA/laravel-selfupdater",
+  "description": "Providing an auto-updating functionality for your self-hosted Laravel application.",
+  "license": "MIT",
+  "keywords": [
+    "self-update",
+    "self update",
+    "auto-update",
+    "auto update",
+    "update",
+    "laravel",
+    "laravel application",
+    "self-hosted laravel application"
+  ],
+  "support": {
+    "issues": "https://github.com/AndrewAubury/laravel-selfupdater/issues",
+    "source": "https://github.com/AndrewAubury/laravel-selfupdater"
+  },
+  "authors": [
+    {
+      "name": "Andrew Aubury",
+      "email": "andrewaubury1@gmail.com",
+      "homepage": "https://github.com/AndrewAubury/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Codedge\\Updater\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Codedge\\Updater\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-zip": "*",
+    "illuminate/support": "5.*",
+    "guzzlehttp/guzzle": "6.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.5",
+    "orchestra/testbench": "3.2.*",
+    "mockery/mockery": "^0.9.5"
+  }
+}
